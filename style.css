@@ -46,6 +46,10 @@ header button {
     flex-wrap: wrap;
 }
 
+.table:hover {
+    cursor: pointer;
+}
+
 .cell {
     width: calc(100% / 10);
     height: calc(100% / 10);
@@ -53,6 +57,11 @@ header button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.active {
+    background-color: #0073ff;
+    color: #ffffff;
 }
 
 
