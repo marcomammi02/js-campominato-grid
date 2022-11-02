@@ -10,6 +10,7 @@ eleBtnPlay.addEventListener('click', function() {
 
         eleCell.addEventListener('click', function() {
             eleCell.classList.toggle('active');
+            console.log('Hai selezionato la casella: ' + i)
         })
     }
 })
