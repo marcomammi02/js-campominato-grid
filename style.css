@@ -38,7 +38,12 @@ header img {
     width: 80px;
 }
 
+.controls label {
+    margin-right: 8px;
+}
+
 #level-selector {
+    margin-right: 15px;
     padding: 3px 20px;
     border-radius: 8px;
 }
