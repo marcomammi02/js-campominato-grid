@@ -9,12 +9,20 @@ body{
     background-color: #7fffd4;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* header */
 header {
+    background-color: #ffffff;
+}
+
+header .container{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    background-color: #ffffff;
 }
 
 .logo-title {
@@ -42,12 +50,16 @@ header button {
     width: 500px;
     height: 500px;
     margin: 43px auto;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
 }
 
 .table:hover {
     cursor: pointer;
+}
+
+.show {
+    display: flex;
 }
 
 .cell {
